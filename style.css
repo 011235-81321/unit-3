@@ -1,0 +1,56 @@
+.awake,
+.gotUp,
+.sleep,
+.attack,
+.spare,
+.attack-attack,
+.attack-spare,
+.spare-spare,
+.spare-attack,
+.attack-attack-attack,
+.attack-attack-spare,
+.attack-spare-spare,
+.attack-spare-attack,
+.attack-attack-attackEnd,
+.attack-attack-spareEnd,
+.attack-spare-spareEnd,
+.attack-spare-attackEnd,
+.spare-attackEnd,
+.spare-spareEnd{
+ display:none;
+}
+.starting-screen{
+    color: white;
+    border: 1px solid white;
+    border-radius: 15%;
+    text-align:center;
+}
+body{
+    background-image: url('https://t3.ftcdn.net/jpg/00/67/59/84/360_F_67598442_OxBE0ebTm3e8PmKahHA11APG5RRuylUC.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+span {
+    display:flex;
+    justify-content: space-between;
+
+}
+span p{
+    border: 1px solid white;
+    padding: 15px;   
+    border-radius: 10%;
+}
+p{
+    color:white;
+    font-size: 30px;
+    text-align:center;
+
+}
+h1 {
+    color:white;
+}
+#textColor{
+    color:black;
+}
